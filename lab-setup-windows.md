@@ -1,4 +1,4 @@
-# Windows - Lab Setup Configuration for Windows Environment
+# Lab Setup Configuration for Windows Environment
 The lab setup configuration has the following steps:
 1. JDK Installation
 2. JDK Configuration
