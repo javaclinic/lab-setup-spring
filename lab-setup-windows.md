@@ -1,4 +1,11 @@
-# Installation and Configuration - Windows
+# Windows - Lab Setup Configuration for Windows Environment
+The lab setup configuration has the following steps:
+1. JDK Installation
+2. JDK Configuration
+3. Eclipse Installation
+4. Tomcat Installation
+5. Tomcat Configuration in Eclipse
+6. HSQL Database Installation
 
 ## JDK Installation
 1. Make sure you have downloaded the latest JDK, e.g. `jdk-8u25-windows-x64.exe`
