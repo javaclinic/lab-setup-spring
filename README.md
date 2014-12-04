@@ -49,7 +49,7 @@ You are welcome to use your own set of developer tools, deployment servers and I
 ![Step 6](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/java_config_06.png)
 7. Click `OK`.
 8. Click `OK`.
-9. Open command prompt. Test if JDK has been properly installed, e.g.
+9. Open command prompt. Test if JDK has been properly installed, e.g. `java -version` and `javac -version`:
     ```
     Microsoft Windows [Version 6.1.7601]
     Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
@@ -74,7 +74,7 @@ You are welcome to use your own set of developer tools, deployment servers and I
 5. Create a shortcut on the desktop for this Eclipse binary.
 6. That's it for **Eclipse Installation**.
 
-### Apache Tomcat Installation
+### Tomcat Installation
 1. Make sure you have downloaded the latest Apache Tomcat 8.x, e.g. `apache-tomcat-8.0.15.zip`
 2. Pick a folder where you want to install your Apache Tomcat, e.g. `C:\training`
 3. Unpack `apache-tomcat-8.0.15.zip` into destination folder, e.g. `C:\training`
@@ -90,13 +90,36 @@ You are welcome to use your own set of developer tools, deployment servers and I
     C:\training\apache-tomcat-8.0.15\webapps
     C:\training\apache-tomcat-8.0.15\work
     ```
-5. That's it for **Apache Tomcat Installation**.
+5. That's it for **Tomcat Installation**.
+
+### Tomcat Configuration in Eclipse
+1. Click on the `Servers` tab and on the link `No servers available. Click this link to create a new server...`
+  ![Step 1](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_01.png)
+2. Under `Apache` select `Tomcat v8.0 Server`. Click `Next`.
+  ![Step 2](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_02.png)
+3. Type in the directory where you installed Tomcat in earlier steps, e.g. `C:\training\apache-tomcat-8.0.15`. Click `Next`.
+  ![Step 3](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_03.png)
+4. There are no applications to deploy at the moment. Click `Finish`.
+  ![Step 4](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_04.png)
+5. In the `Servers` tab, there should be a new server installed, e.g. `Tomcat v8.0 Server at localhost`. Double click on the server, server configuration options will open. Please update `Server Locations` and use "middle option", e.g. `Use Tomcat installation (takes control of Tomcat installation)`. Save the file, e.g. `CTRL+s`.
+  ![Step 5](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_05.png)
+6. Right click on the server and select `Start`.
+    ![Step 6](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_06.png)
+7. (Optional) Your windows firewall might pop up and ask to allow server process to bind to a listening port. Click `Allow access`.
+  ![Step 7](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_07.png)
+8. Notice the `Console` tab and observe the console output. You should see a message indicating your server is up and running.
+  ![Step 8](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_08.png)
+9. Open up browser view, and type in the address, e.g. `http://localhost:8080`
+  ![Step 9](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_09.png)
+10. That's it for **Tomcat Configuration in Eclipse**.
+
 
 ### HSQL database Installation
-Soon.
+We will configure this at the beginning of the class.
 
 ## Installation and Configuration - MacOS
 Soon.
 
 ## Installation and Configuration - Linux
 Soon.
+
