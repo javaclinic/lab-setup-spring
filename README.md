@@ -8,11 +8,11 @@ You are welcome to use your own set of developer tools, deployment servers and I
 
 ## Requirements
 * Downloaded and installed latest JDK, e.g. http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-  * *NOTE* If you are using your existing JDK, please make sure it is at least JDK7.
+  * **NOTE**: If you are using your existing JDK, please make sure it is at least JDK7 (i.e. JDK 1.7.0_XX)
 * Downloaded and installed latest Eclipse IDE for Java EE Developers, e.g. https://eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr1
-  * *NOTE* If you are using your existing Eclipse, please make sure it is "Eclipse IDE for Java EE Developers" and at least Luna edition.
+  * **NOTE**: If you are using your existing Eclipse, please make sure it is "**Eclipse IDE for Java EE Developers**" and at least **Luna** edition.
 * Downloaded latest Apache Tomcat 8.x
-  * *NOTE* You can also use Apache Tomcat 7.x version.
+  * **NOTE**: You can also use Apache Tomcat 7.x version.
 
 ## Installation and Configuration - Windows
 
