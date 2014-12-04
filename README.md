@@ -15,7 +15,7 @@ You are welcome to use your own set of developer tools, deployment servers and I
 > **NOTE**: You can also use Apache Tomcat 7.x version.
 
 ## Installation and Configuration - Windows
-[Lab Setup Configuration for Windows Environment) (lab-setup-windows.md)
+[Lab Setup Configuration for Windows Environment] (lab-setup-windows.md)
 
 ## Installation and Configuration - MacOS
 Soon.
