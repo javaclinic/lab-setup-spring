@@ -112,7 +112,7 @@ The lab setup configuration has the following main steps:
 2. Under `Apache` select `Tomcat v8.0 Server`. Click `Next`.
   ![Step 2](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/mac_eclipse_tomcat_configuration_02.png)
 3. Type in the directory where you installed Tomcat in earlier steps, e.g. `~/training\apache-tomcat-8.0.15`. Click `Next`.
-  ![Step 3](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/eclipse_tomcat_configuration_03.png)
+  ![Step 3](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/mac_eclipse_tomcat_configuration_03.png)
 4. There are no applications to deploy at the moment. Click `Finish`.
   ![Step 4](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/mac_eclipse_tomcat_configuration_04.png)
 5. In the `Servers` tab, there should be a new server installed, e.g. `Tomcat v8.0 Server at localhost`. Double click on the server, server configuration options will open. Please update `Server Locations` and use "middle option", e.g. `Use Tomcat installation (takes control of Tomcat installation)`. Save the file, e.g. `CTRL+s`.
