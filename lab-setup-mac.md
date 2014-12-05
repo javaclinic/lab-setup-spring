@@ -33,7 +33,7 @@ The lab setup configuration has the following main steps:
 1. MacOS will take care of JDK installation and configuration.
 2. Let's configure `$JAVA_HOME`  environment variable for all our programs. Edit `~/.bash_profile` file. Add a line:
     ```
-    export JAVA_HOME="`/usr/libexec/java_home -v 1.8`"
+    export JAVA_HOME="```/usr/libexec/java_home -v 1.8```"
     ```
 3. Open new terminal window. Test if JDK has been properly installed, e.g. `java -version` and `javac -version`:
     ```
