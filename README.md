@@ -18,7 +18,7 @@ You are welcome to use your own set of developer tools, deployment servers and I
 [Lab Setup Configuration for Windows Environment] (lab-setup-windows.md)
 
 ## Installation and Configuration - MacOS
-Soon.
+[Lab Setup Configuration for MacOS Environment] (lab-setup-mac.md)
 
 ## Installation and Configuration - Linux
 Soon.
