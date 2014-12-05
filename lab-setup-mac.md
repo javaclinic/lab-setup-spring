@@ -52,22 +52,27 @@ The lab setup configuration has the following main steps:
 ## Eclipse Installation
 1. Make sure you have downloaded the latest Eclipse IDE for Java EE Developers, e.g. `eclipse-jee-luna-SR1-macosx-cocoa-x86_64.tar.gz`
 2. Pick (or create) a folder where you want to install your Eclipse IDE, the shorter path, the better, e.g.
+
     ```
     mkdir ~/training
     ```
 3. Change directory into the destination folder, e.g.
+
     ```
     cd ~/training
     ```
 4. Unpack `eclipse-jee-luna-SR1-macosx-cocoa-x86_64.tar.gz`, e.g.
+
     ```
     tar zxvf eclipse-jee-luna-SR1-macosx-cocoa-x86_64.tar.gz
     ```
 5. (Optional) Link to your `/Applications` folder, e.g.
+
     ```
     ln -s ~/eclipse/Eclipse.app /Applications
     ```
 6. (Optional) Link to your binary folder, e.g.
+
     ```
     sudo ln -s ~/eclipse/Eclipse.app/Contents/MacOS/eclipse /bin/eclipse
     ```
@@ -87,6 +92,7 @@ The lab setup configuration has the following main steps:
     ```
 
 5. Check the directory structure, e.g. 
+
     ```
     ~/training/
     ~/training/apache-tomcat-8.0.15/
