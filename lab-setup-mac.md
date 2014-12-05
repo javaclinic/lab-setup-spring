@@ -163,7 +163,7 @@ The lab setup configuration has the following main steps:
 
   ![Step 6](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/mac_eclipse_tomcat_configuration_06.png)
 
-7. (Optional) Your windows firewall might pop up and ask to allow server process to bind to a listening port. Click `Allow`.
+7. (Optional) Your firewall might pop up and ask to allow server process to bind to a listening port. Click `Allow`.
 
   ![Step 7](https://raw.github.com/javaclinic/lab-setup-spring/master/screenshots/mac_eclipse_tomcat_configuration_07.png)
 
